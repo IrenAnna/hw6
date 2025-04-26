@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    background: lightgray;
+    font-size: 16px;
+    justify-content: center;
+    text-align: right;
+    padding: 0px;
+}
+
+div.head {
+
+    text-align: justify;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.proj {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.search {
+    content: '';
+    display: block;
+    width: 85%;
+    height: 1px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.search:before {
+    content: url("../img/search.png");
+    padding-left: 0px;
+    margin-right: 10px;
+
+}
+ul {
+    padding: 10px;
+}
+.bird:after {
+    content: url("../img/Check.png");
+    padding-left: 90px;
+}
+ol {
+    padding: 0;
+    margin-bottom: 20px;
+}
+ol:before {
+    content: url("../img/project.png");
+    /*text-align: right;*/
+    padding-right: 20px;
+}

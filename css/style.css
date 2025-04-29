@@ -86,27 +86,34 @@ body {
 
 }
 
-/*.box {*/
-/*    display: inline;*/
-/*}*/
+.box {
+    position: relative;
+}
 
 input {
+    box-sizing: border-box;
     background-color: rgba(128, 128, 128, 0.15);
-    padding: 10px;
+    padding: 10px 10px 10px 40px;
     border-radius: 10px;
     border: none;
-    text-align: center;
     width: 90%;
     margin-bottom: 0px;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+
 }
+
 input:hover {
     background-color: rgba(113, 101, 113, 0.21);
 }
+
 li:not(:last-child) {
     margin-bottom: 20px;
 }
 
 ul {
+    list-style: none;
     padding: 7px;
 }
 
@@ -119,8 +126,8 @@ li:before {
 .check:after {
     content: url("../img/Check.png");
     padding-left: 80px;
+
 }
 
-input::placeholder {
-    content: url("../img/search.png");
-}
+
+
